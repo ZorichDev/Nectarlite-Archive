@@ -2,6 +2,7 @@
 "[project]/Desktop/Archive/node_modules/next/dist/compiled/react/cjs/react-jsx-dev-runtime.development.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -10,8 +11,7 @@
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
+ */ "use strict";
 "production" !== ("TURBOPACK compile-time value", "development") && function() {
     function getComponentNameFromType(type) {
         if (null == type) return null;
@@ -229,6 +229,7 @@ else {
 "[project]/Desktop/Archive/node_modules/next/dist/compiled/react/cjs/react-compiler-runtime.development.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 /**
  * @license React
  * react-compiler-runtime.development.js
@@ -237,8 +238,7 @@ else {
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-"use strict";
+ */ "use strict";
 "production" !== ("TURBOPACK compile-time value", "development") && function() {
     var ReactSharedInternals = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)").__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
     exports.c = function(size) {
@@ -251,13 +251,13 @@ else {
 "[project]/Desktop/Archive/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 /**
  * Copyright (c) Meta Platforms, Inc. and affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-'use strict';
+ */ 'use strict';
 if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
 ;
 else {
@@ -350,6 +350,7 @@ const imageConfigDefault = {
         'image/webp'
     ],
     maximumRedirects: 3,
+    maximumResponseBody: 50000000,
     dangerouslyAllowLocalIP: false,
     dangerouslyAllowSVG: false,
     contentSecurityPolicy: `script-src 'none'; frame-src 'none'; sandbox;`,
@@ -377,6 +378,7 @@ Object.defineProperty(exports, "getImgProps", {
     }
 });
 const _warnonce = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/shared/lib/utils/warn-once.js [app-client] (ecmascript)");
+const _deploymentid = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/shared/lib/deployment-id.js [app-client] (ecmascript)");
 const _imageblursvg = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/shared/lib/image-blur-svg.js [app-client] (ecmascript)");
 const _imageconfig = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/shared/lib/image-config.js [app-client] (ecmascript)");
 const VALID_LOADING_VALUES = [
@@ -461,6 +463,11 @@ function getWidths({ deviceSizes, allSizes }, width, sizes) {
 }
 function generateImgAttrs({ config, src, unoptimized, width, quality, sizes, loader }) {
     if (unoptimized) {
+        const deploymentId = (0, _deploymentid.getDeploymentId)();
+        if (src.startsWith('/') && !src.startsWith('//') && deploymentId) {
+            const sep = src.includes('?') ? '&' : '?';
+            src = `${src}${sep}dpl=${deploymentId}`;
+        }
         return {
             src,
             srcSet: undefined,
@@ -2965,6 +2972,7 @@ Object.defineProperty(exports, "default", {
     }
 });
 const _findclosestquality = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/shared/lib/find-closest-quality.js [app-client] (ecmascript)");
+const _deploymentid = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/shared/lib/deployment-id.js [app-client] (ecmascript)");
 function defaultLoader({ config, src, width, quality }) {
     if (src.startsWith('/') && src.includes('?') && config.localPatterns?.length === 1 && config.localPatterns[0].pathname === '**' && config.localPatterns[0].search === '') {
         throw Object.defineProperty(new Error(`Image with src "${src}" is using a query string which is not configured in images.localPatterns.` + `\nRead more: https://nextjs.org/docs/messages/next-image-unconfigured-localpatterns`), "__NEXT_ERROR_CODE", {
@@ -3035,7 +3043,8 @@ function defaultLoader({ config, src, width, quality }) {
         }
     }
     const q = (0, _findclosestquality.findClosestQuality)(quality, config);
-    return `${config.path}?url=${encodeURIComponent(src)}&w=${width}&q=${q}${src.startsWith('/_next/static/media/') && ("TURBOPACK compile-time value", false) ? "TURBOPACK unreachable" : ''}`;
+    let deploymentId = (0, _deploymentid.getDeploymentId)();
+    return `${config.path}?url=${encodeURIComponent(src)}&w=${width}&q=${q}${src.startsWith('/') && deploymentId ? `&dpl=${deploymentId}` : ''}`;
 }
 // We use this to determine if the import is the default loader
 // or a custom loader defined by the user in next.config.js
@@ -3555,12 +3564,7 @@ module.exports = __turbopack_context__.r("[project]/Desktop/Archive/node_modules
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.553.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "hasA11yProp",
     ()=>hasA11yProp,
     "mergeClasses",
@@ -3572,7 +3576,12 @@ module.exports = __turbopack_context__.r("[project]/Desktop/Archive/node_modules
     "toPascalCase",
     ()=>toPascalCase
 ]);
-const toKebabCase = (string)=>string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
+/**
+ * @license lucide-react v0.553.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ const toKebabCase = (string)=>string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
 const toCamelCase = (string)=>string.replace(/^([A-Z])|[\s-_]+(\w)/g, (match, p1, p2)=>p2 ? p2.toUpperCase() : p1.toLowerCase());
 const toPascalCase = (string)=>{
     const camelCase = toCamelCase(string);
@@ -3594,16 +3603,16 @@ const hasA11yProp = (props)=>{
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/defaultAttributes.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>defaultAttributes
+]);
 /**
  * @license lucide-react v0.553.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>defaultAttributes
-]);
-var defaultAttributes = {
+ */ var defaultAttributes = {
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
     height: 24,
@@ -3620,16 +3629,16 @@ var defaultAttributes = {
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/Icon.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>Icon
+]);
 /**
  * @license lucide-react v0.553.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>Icon
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$defaultAttributes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/defaultAttributes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$shared$2f$src$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)");
 ;
@@ -3659,16 +3668,16 @@ const Icon = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Arch
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "default",
+    ()=>createLucideIcon
+]);
 /**
  * @license lucide-react v0.553.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "default",
-    ()=>createLucideIcon
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$shared$2f$src$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/shared/src/utils.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$Icon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/Icon.js [app-client] (ecmascript)");
 ;
@@ -3690,18 +3699,18 @@ const createLucideIcon = (iconName, iconNode)=>{
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.553.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "__iconNode",
     ()=>__iconNode,
     "default",
     ()=>MapPin
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+/**
+ * @license lucide-react v0.553.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const __iconNode = [
     [
@@ -3737,18 +3746,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_m
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/icons/mail.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.553.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "__iconNode",
     ()=>__iconNode,
     "default",
     ()=>Mail
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+/**
+ * @license lucide-react v0.553.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const __iconNode = [
     [
@@ -3786,18 +3795,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_m
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/icons/phone.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.553.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "__iconNode",
     ()=>__iconNode,
     "default",
     ()=>Phone
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+/**
+ * @license lucide-react v0.553.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const __iconNode = [
     [
@@ -3824,18 +3833,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_m
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/icons/search.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.553.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "__iconNode",
     ()=>__iconNode,
     "default",
     ()=>Search
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+/**
+ * @license lucide-react v0.553.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const __iconNode = [
     [
@@ -3871,18 +3880,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_m
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/icons/facebook.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.553.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "__iconNode",
     ()=>__iconNode,
     "default",
     ()=>Facebook
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+/**
+ * @license lucide-react v0.553.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const __iconNode = [
     [
@@ -3909,18 +3918,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_m
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/icons/twitter.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.553.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "__iconNode",
     ()=>__iconNode,
     "default",
     ()=>Twitter
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+/**
+ * @license lucide-react v0.553.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const __iconNode = [
     [
@@ -3947,18 +3956,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_m
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/icons/instagram.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.553.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "__iconNode",
     ()=>__iconNode,
     "default",
     ()=>Instagram
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+/**
+ * @license lucide-react v0.553.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const __iconNode = [
     [
@@ -4007,18 +4016,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_m
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/icons/menu.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.553.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "__iconNode",
     ()=>__iconNode,
     "default",
     ()=>Menu
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+/**
+ * @license lucide-react v0.553.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const __iconNode = [
     [
@@ -4059,18 +4068,18 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_m
 "[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * @license lucide-react v0.553.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "__iconNode",
     ()=>__iconNode,
     "default",
     ()=>X
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
+/**
+ * @license lucide-react v0.553.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Archive/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-client] (ecmascript)");
 ;
 const __iconNode = [
     [
@@ -4104,15 +4113,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_m
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/render/utils/keys-transform.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Generate a list of every possible transform key.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "transformPropOrder",
     ()=>transformPropOrder,
     "transformProps",
     ()=>transformProps
 ]);
-const transformPropOrder = [
+/**
+ * Generate a list of every possible transform key.
+ */ const transformPropOrder = [
     "transformPerspective",
     "x",
     "y",
@@ -4250,11 +4259,7 @@ const singleCssVariableRegex = /var\(--(?:[\w-]+\s*|[\w-]+\s*,(?:\s*[^)(\s]|\s*\
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/projection/geometry/conversion.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Bounding boxes tend to be defined as top, left, right, bottom. For various operations
- * it's easier to consider each axis individually. This function returns a bounding box
- * as a map of single-axis min/max values.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "convertBoundingBoxToBox",
     ()=>convertBoundingBoxToBox,
     "convertBoxToBoundingBox",
@@ -4262,7 +4267,11 @@ const singleCssVariableRegex = /var\(--(?:[\w-]+\s*|[\w-]+\s*,(?:\s*[^)(\s]|\s*\
     "transformBoxPoints",
     ()=>transformBoxPoints
 ]);
-function convertBoundingBoxToBox({ top, left, right, bottom }) {
+/**
+ * Bounding boxes tend to be defined as top, left, right, bottom. For various operations
+ * it's easier to consider each axis individually. This function returns a bounding box
+ * as a map of single-axis min/max values.
+ */ function convertBoundingBoxToBox({ top, left, right, bottom }) {
     return {
         x: {
             min: left,
@@ -4308,6 +4317,10 @@ function convertBoxToBoundingBox({ x, y }) {
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/utils/mix/number.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "mixNumber",
+    ()=>mixNumber
+]);
 /*
   Value in range from progress
 
@@ -4328,11 +4341,7 @@ function convertBoxToBoundingBox({ x, y }) {
   @param [number]: Upper limit of range
   @param [number]: The progress between lower and upper limits expressed 0-1
   @return [number]: Value as calculated from progress within range (not limited within range)
-*/ __turbopack_context__.s([
-    "mixNumber",
-    ()=>mixNumber
-]);
-const mixNumber = (from, to, progress)=>{
+*/ const mixNumber = (from, to, progress)=>{
     return from + (to - from) * progress;
 };
 ;
@@ -4539,13 +4548,13 @@ const positionalKeys = new Set([
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/value/types/auto.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * ValueType for "auto"
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "auto",
     ()=>auto
 ]);
-const auto = {
+/**
+ * ValueType for "auto"
+ */ const auto = {
     test: (v)=>v === "auto",
     parse: (v)=>v
 };
@@ -4596,7 +4605,7 @@ const scale = {
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/value/types/numbers/units.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/*#__NO_SIDE_EFFECTS__*/ __turbopack_context__.s([
+__turbopack_context__.s([
     "degrees",
     ()=>degrees,
     "percent",
@@ -4610,7 +4619,7 @@ const scale = {
     "vw",
     ()=>vw
 ]);
-const createUnitType = (unit)=>({
+/*#__NO_SIDE_EFFECTS__*/ const createUnitType = (unit)=>({
         test: (v)=>typeof v === "string" && v.endsWith(unit) && v.split(" ").length === 1,
         parse: parseFloat,
         transform: (v)=>`${v}${unit}`
@@ -4630,13 +4639,13 @@ const progressPercentage = /*@__PURE__*/ (()=>({
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/value/types/test.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Tests a provided value against a ValueType
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "testValueType",
     ()=>testValueType
 ]);
-const testValueType = (v)=>(type)=>type.test(v);
+/**
+ * Tests a provided value against a ValueType
+ */ const testValueType = (v)=>(type)=>type.test(v);
 ;
 }),
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/value/types/dimensions.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
@@ -4715,13 +4724,13 @@ if ("TURBOPACK compile-time truthy", 1) {
 "[project]/Desktop/Archive/node_modules/motion-utils/dist/es/is-numerical-string.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Check if value is a numerical string, ie a string that is purely a number eg "100" or "-100.1"
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "isNumericalString",
     ()=>isNumericalString
 ]);
-const isNumericalString = (v)=>/^-?(?:\d+(?:\.\d+)?|\.\d+)$/u.test(v);
+/**
+ * Check if value is a numerical string, ie a string that is purely a number eg "100" or "-100.1"
+ */ const isNumericalString = (v)=>/^-?(?:\d+(?:\.\d+)?|\.\d+)$/u.test(v);
 ;
 }),
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/animation/utils/css-variables-conversion.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
@@ -4849,11 +4858,11 @@ positionalValues.translateY = positionalValues.y;
 "[project]/Desktop/Archive/node_modules/motion-utils/dist/es/noop.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/*#__NO_SIDE_EFFECTS__*/ __turbopack_context__.s([
+__turbopack_context__.s([
     "noop",
     ()=>noop
 ]);
-const noop = (any)=>any;
+/*#__NO_SIDE_EFFECTS__*/ const noop = (any)=>any;
 ;
 }),
 "[project]/Desktop/Archive/node_modules/motion-utils/dist/es/global-config.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
@@ -5246,13 +5255,13 @@ class KeyframeResolver {
 "[project]/Desktop/Archive/node_modules/motion-utils/dist/es/is-zero-value-string.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Check if the value is a zero value string like "0px" or "0%"
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "isZeroValueString",
     ()=>isZeroValueString
 ]);
-const isZeroValueString = (v)=>/^0[^.\s]+$/u.test(v);
+/**
+ * Check if the value is a zero value string like "0px" or "0%"
+ */ const isZeroValueString = (v)=>/^0[^.\s]+$/u.test(v);
 ;
 }),
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/animation/keyframes/utils/is-none.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
@@ -5278,12 +5287,12 @@ function isNone(value) {
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/value/types/utils/sanitize.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// If this number is a decimal, make it just five decimal places
-// to avoid exponents
 __turbopack_context__.s([
     "sanitize",
     ()=>sanitize
 ]);
+// If this number is a decimal, make it just five decimal places
+// to avoid exponents
 const sanitize = (v)=>Math.round(v * 100000) / 100000;
 ;
 }),
@@ -6124,16 +6133,16 @@ class SubscriptionManager {
 "[project]/Desktop/Archive/node_modules/motion-utils/dist/es/velocity-per-second.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "velocityPerSecond",
+    ()=>velocityPerSecond
+]);
 /*
   Convert velocity into velocity per second
 
   @param [number]: Unit per frame
   @param [number]: Frame duration in ms
-*/ __turbopack_context__.s([
-    "velocityPerSecond",
-    ()=>velocityPerSecond
-]);
-function velocityPerSecond(velocity, frameDuration) {
+*/ function velocityPerSecond(velocity, frameDuration) {
     return frameDuration ? velocity * (1000 / frameDuration) : 0;
 }
 ;
@@ -6604,13 +6613,13 @@ const isBrowser = typeof window !== "undefined";
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/utils/reduced-motion/state.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// Does this device prefer reduced motion? Returns `null` server-side.
 __turbopack_context__.s([
     "hasReducedMotionListener",
     ()=>hasReducedMotionListener,
     "prefersReducedMotion",
     ()=>prefersReducedMotion
 ]);
+// Does this device prefer reduced motion? Returns `null` server-side.
 const prefersReducedMotion = {
     current: null
 };
@@ -6669,13 +6678,13 @@ function isAnimationControls(v) {
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/render/utils/is-variant-label.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Decides if the supplied variable is variant label
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "isVariantLabel",
     ()=>isVariantLabel
 ]);
-function isVariantLabel(v) {
+/**
+ * Decides if the supplied variable is variant label
+ */ function isVariantLabel(v) {
     return typeof v === "string" || Array.isArray(v);
 }
 ;
@@ -7325,13 +7334,13 @@ class DOMVisualElement extends __TURBOPACK__imported__module__$5b$project$5d2f$D
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/value/types/utils/get-as-type.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Provided a value and a ValueType, returns the value as that value type.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "getValueAsType",
     ()=>getValueAsType
 ]);
-const getValueAsType = (value, type)=>{
+/**
+ * Provided a value and a ValueType, returns the value as that value type.
+ */ const getValueAsType = (value, type)=>{
     return type && typeof value === "number" ? type.transform(value) : value;
 };
 ;
@@ -7606,13 +7615,13 @@ class HTMLVisualElement extends __TURBOPACK__imported__module__$5b$project$5d2f$
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/render/dom/utils/camel-to-dash.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Convert camelCase to dash-case properties.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "camelToDash",
     ()=>camelToDash
 ]);
-const camelToDash = (str)=>str.replace(/([a-z])([A-Z])/gu, "$1-$2").toLowerCase();
+/**
+ * Convert camelCase to dash-case properties.
+ */ const camelToDash = (str)=>str.replace(/([a-z])([A-Z])/gu, "$1-$2").toLowerCase();
 ;
 }),
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/render/svg/utils/path.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
@@ -7713,13 +7722,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_m
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/render/svg/utils/camel-case-attrs.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * A set of attribute names that are always read/written as camel case.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "camelCaseAttributes",
     ()=>camelCaseAttributes
 ]);
-const camelCaseAttributes = new Set([
+/**
+ * A set of attribute names that are always read/written as camel case.
+ */ const camelCaseAttributes = new Set([
     "baseFrequency",
     "diffuseConstant",
     "kernelMatrix",
@@ -7864,14 +7873,14 @@ class SVGVisualElement extends __TURBOPACK__imported__module__$5b$project$5d2f$D
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/render/svg/lowercase-elements.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * We keep these listed separately as we use the lowercase tag names as part
- * of the runtime bundle to detect SVG components
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "lowercaseSVGElements",
     ()=>lowercaseSVGElements
 ]);
-const lowercaseSVGElements = [
+/**
+ * We keep these listed separately as we use the lowercase tag names as part
+ * of the runtime bundle to detect SVG components
+ */ const lowercaseSVGElements = [
     "animate",
     "circle",
     "defs",
@@ -8209,16 +8218,16 @@ function useSVGProps(props, visualState, _isStatic, Component) {
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/motion/utils/valid-prop.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "isValidMotionProp",
+    ()=>isValidMotionProp
+]);
 /**
  * A list of all valid MotionProps.
  *
  * @privateRemarks
  * This doesn't throw if a `MotionProp` name is missing - it should.
- */ __turbopack_context__.s([
-    "isValidMotionProp",
-    ()=>isValidMotionProp
-]);
-const validMotionProps = new Set([
+ */ const validMotionProps = new Set([
     "animate",
     "exit",
     "variants",
@@ -9147,35 +9156,35 @@ function makeAnimationInstant(options) {
 "[project]/Desktop/Archive/node_modules/motion-utils/dist/es/pipe.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "pipe",
+    ()=>pipe
+]);
 /**
  * Pipe
  * Compose other transformers to run linearily
  * pipe(min(20), max(40))
  * @param  {...functions} transformers
  * @return {function}
- */ __turbopack_context__.s([
-    "pipe",
-    ()=>pipe
-]);
-const combineFunctions = (a, b)=>(v)=>b(a(v));
+ */ const combineFunctions = (a, b)=>(v)=>b(a(v));
 const pipe = (...transformers)=>transformers.reduce(combineFunctions);
 ;
 }),
 "[project]/Desktop/Archive/node_modules/motion-utils/dist/es/time-conversion.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Converts seconds to milliseconds
- *
- * @param seconds - Time in seconds.
- * @return milliseconds - Converted time in milliseconds.
- */ /*#__NO_SIDE_EFFECTS__*/ __turbopack_context__.s([
+__turbopack_context__.s([
     "millisecondsToSeconds",
     ()=>millisecondsToSeconds,
     "secondsToMilliseconds",
     ()=>secondsToMilliseconds
 ]);
-const secondsToMilliseconds = (seconds)=>seconds * 1000;
+/**
+ * Converts seconds to milliseconds
+ *
+ * @param seconds - Time in seconds.
+ * @return milliseconds - Converted time in milliseconds.
+ */ /*#__NO_SIDE_EFFECTS__*/ const secondsToMilliseconds = (seconds)=>seconds * 1000;
 /*#__NO_SIDE_EFFECTS__*/ const millisecondsToSeconds = (milliseconds)=>milliseconds / 1000;
 ;
 }),
@@ -9196,11 +9205,11 @@ const activeAnimations = {
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/value/types/color/hsla-to-rgba.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// Adapted from https://gist.github.com/mjackson/5311256
 __turbopack_context__.s([
     "hslaToRgba",
     ()=>hslaToRgba
 ]);
+// Adapted from https://gist.github.com/mjackson/5311256
 function hueToRgb(p, q, t) {
     if (t < 0) t += 1;
     if (t > 1) t -= 1;
@@ -9513,16 +9522,16 @@ const generateLinearEasing = (easing, duration, resolution = 10 // as millisecon
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/animation/generators/utils/calc-duration.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Implement a practical max duration for keyframe generation
- * to prevent infinite loops
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "calcGeneratorDuration",
     ()=>calcGeneratorDuration,
     "maxGeneratorDuration",
     ()=>maxGeneratorDuration
 ]);
-const maxGeneratorDuration = 20000;
+/**
+ * Implement a practical max duration for keyframe generation
+ * to prevent infinite loops
+ */ const maxGeneratorDuration = 20000;
 function calcGeneratorDuration(generator) {
     let duration = 0;
     const timeStep = 50;
@@ -10048,24 +10057,24 @@ const isEasingArray = (ease)=>{
 "[project]/Desktop/Archive/node_modules/motion-utils/dist/es/easing/modifiers/mirror.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// Accepts an easing function and returns a new one that outputs mirrored values for
-// the second half of the animation. Turns easeIn into easeInOut.
 __turbopack_context__.s([
     "mirrorEasing",
     ()=>mirrorEasing
 ]);
+// Accepts an easing function and returns a new one that outputs mirrored values for
+// the second half of the animation. Turns easeIn into easeInOut.
 const mirrorEasing = (easing)=>(p)=>p <= 0.5 ? easing(2 * p) / 2 : (2 - easing(2 * (1 - p))) / 2;
 ;
 }),
 "[project]/Desktop/Archive/node_modules/motion-utils/dist/es/easing/modifiers/reverse.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// Accepts an easing function and returns a new one that outputs reversed values.
-// Turns easeIn into easeOut.
 __turbopack_context__.s([
     "reverseEasing",
     ()=>reverseEasing
 ]);
+// Accepts an easing function and returns a new one that outputs reversed values.
+// Turns easeIn into easeOut.
 const reverseEasing = (easing)=>(p)=>1 - easing(1 - p);
 ;
 }),
@@ -10190,6 +10199,10 @@ const easingDefinitionToFunction = (definition)=>{
 "[project]/Desktop/Archive/node_modules/motion-utils/dist/es/progress.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "progress",
+    ()=>progress
+]);
 /*
   Progress within given range
 
@@ -10201,11 +10214,7 @@ const easingDefinitionToFunction = (definition)=>{
   @param [number]: Upper limit
   @param [number]: Value to find progress within given range
   @return [number]: Progress of value within range as expressed 0-1
-*/ /*#__NO_SIDE_EFFECTS__*/ __turbopack_context__.s([
-    "progress",
-    ()=>progress
-]);
-const progress = (from, to, value)=>{
+*/ /*#__NO_SIDE_EFFECTS__*/ const progress = (from, to, value)=>{
     const toFromDifference = to - from;
     return toFromDifference === 0 ? 1 : (value - from) / toFromDifference;
 };
@@ -10843,11 +10852,11 @@ function setStyle(element, name, value) {
 "[project]/Desktop/Archive/node_modules/motion-utils/dist/es/memo.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/*#__NO_SIDE_EFFECTS__*/ __turbopack_context__.s([
+__turbopack_context__.s([
     "memo",
     ()=>memo
 ]);
-function memo(callback) {
+/*#__NO_SIDE_EFFECTS__*/ function memo(callback) {
     let result;
     return ()=>{
         if (result === undefined) result = callback();
@@ -10871,14 +10880,14 @@ const supportsScrollTimeline = /* @__PURE__ */ (0, __TURBOPACK__imported__module
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/utils/supports/flags.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Add the ability for test suites to manually set support flags
- * to better test more environments.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "supportsFlags",
     ()=>supportsFlags
 ]);
-const supportsFlags = {};
+/**
+ * Add the ability for test suites to manually set support flags
+ * to better test more environments.
+ */ const supportsFlags = {};
 ;
 }),
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/utils/supports/memo.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
@@ -11702,15 +11711,15 @@ const getDefaultTransition = (valueKey, { keyframes })=>{
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/animation/utils/is-transition-defined.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "isTransitionDefined",
+    ()=>isTransitionDefined
+]);
 /**
  * Decide whether a transition is defined on a given Transition.
  * This filters out orchestration options and returns true
  * if any options are left.
- */ __turbopack_context__.s([
-    "isTransitionDefined",
-    ()=>isTransitionDefined
-]);
-function isTransitionDefined({ when, delay: _delay, delayChildren, staggerChildren, staggerDirection, repeat, repeatType, repeatDelay, from, elapsed, ...transition }) {
+ */ function isTransitionDefined({ when, delay: _delay, delayChildren, staggerChildren, staggerDirection, repeat, repeatType, repeatDelay, from, elapsed, ...transition }) {
     return !!Object.keys(transition).length;
 }
 ;
@@ -12739,11 +12748,11 @@ function eachAxis(callback) {
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/utils/get-context-window.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// Fixes https://github.com/motiondivision/motion/issues/2270
 __turbopack_context__.s([
     "getContextWindow",
     ()=>getContextWindow
 ]);
+// Fixes https://github.com/motiondivision/motion/issues/2270
 const getContextWindow = ({ current })=>{
     return current ? current.ownerDocument.defaultView : null;
 };
@@ -13767,15 +13776,15 @@ function isPresent(context) {
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/projection/node/state.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "globalProjectionState",
+    ()=>globalProjectionState
+]);
 /**
  * This should only ever be modified on the client otherwise it'll
  * persist through server requests. If we need instanced states we
  * could lazy-init via root.
- */ __turbopack_context__.s([
-    "globalProjectionState",
-    ()=>globalProjectionState
-]);
-const globalProjectionState = {
+ */ const globalProjectionState = {
     /**
      * Global flag as to whether the tree has animated since the last time
      * we resized the window
@@ -14262,11 +14271,7 @@ function compress(min, max, easing) {
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/projection/geometry/copy.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Reset an axis to the provided origin box.
- *
- * This is a mutative operation.
- */ __turbopack_context__.s([
+__turbopack_context__.s([
     "copyAxisDeltaInto",
     ()=>copyAxisDeltaInto,
     "copyAxisInto",
@@ -14274,7 +14279,11 @@ function compress(min, max, easing) {
     "copyBoxInto",
     ()=>copyBoxInto
 ]);
-function copyAxisInto(axis, originAxis) {
+/**
+ * Reset an axis to the provided origin box.
+ *
+ * This is a mutative operation.
+ */ function copyAxisInto(axis, originAxis) {
     axis.min = originAxis.min;
     axis.max = originAxis.max;
 }
@@ -16272,17 +16281,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_m
 "[project]/Desktop/Archive/node_modules/motion-dom/dist/es/gestures/utils/is-node-or-child.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "isNodeOrChild",
+    ()=>isNodeOrChild
+]);
 /**
  * Recursively traverse up the tree to check whether the provided child node
  * is the parent or a descendant of it.
  *
  * @param parent - Element to find
  * @param child - Element to test against parent
- */ __turbopack_context__.s([
-    "isNodeOrChild",
-    ()=>isNodeOrChild
-]);
-const isNodeOrChild = (parent, child)=>{
+ */ const isNodeOrChild = (parent, child)=>{
     if (!child) {
         return false;
     } else if (parent === child) {
@@ -16503,15 +16512,15 @@ class PressGesture extends __TURBOPACK__imported__module__$5b$project$5d2f$Deskt
 "[project]/Desktop/Archive/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+__turbopack_context__.s([
+    "observeIntersection",
+    ()=>observeIntersection
+]);
 /**
  * Map an IntersectionHandler callback to an element. We only ever make one handler for one
  * element, so even though these handlers might all be triggered by different
  * observers, we can keep them in the same map.
- */ __turbopack_context__.s([
-    "observeIntersection",
-    ()=>observeIntersection
-]);
-const observerCallbacks = new WeakMap();
+ */ const observerCallbacks = new WeakMap();
 /**
  * Multiple observers can be created for multiple element/document roots. Each with
  * different settings. So here we store dictionaries of observers to each root,
@@ -16805,6 +16814,7 @@ function assign(target, ...searchParamsList) {
 "[project]/Desktop/Archive/node_modules/next/dist/shared/lib/router/utils/format-url.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
 
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 // Format function modified from nodejs
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -16826,7 +16836,6 @@ function assign(target, ...searchParamsList) {
 // DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Archive$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Desktop/Archive/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -17225,7 +17234,7 @@ const _addbasepath = __turbopack_context__.r("[project]/Desktop/Archive/node_mod
 const _warnonce = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/shared/lib/utils/warn-once.js [app-client] (ecmascript)");
 const _links = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/client/components/links.js [app-client] (ecmascript)");
 const _islocalurl = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/shared/lib/router/utils/is-local-url.js [app-client] (ecmascript)");
-const _segmentcache = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/client/components/segment-cache.js [app-client] (ecmascript)");
+const _types = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/client/components/segment-cache/types.js [app-client] (ecmascript)");
 const _erroronce = __turbopack_context__.r("[project]/Desktop/Archive/node_modules/next/dist/shared/lib/utils/error-once.js [app-client] (ecmascript)");
 function isModifiedEvent(event) {
     const eventTarget = event.currentTarget;
@@ -17289,7 +17298,7 @@ function LinkComponent(props) {
     }
     const router = _react.default.useContext(_approutercontextsharedruntime.AppRouterContext);
     const prefetchEnabled = prefetchProp !== false;
-    const fetchStrategy = prefetchProp !== false ? getFetchStrategyFromPrefetchProp(prefetchProp) : _segmentcache.FetchStrategy.PPR;
+    const fetchStrategy = prefetchProp !== false ? getFetchStrategyFromPrefetchProp(prefetchProp) : _types.FetchStrategy.PPR;
     if ("TURBOPACK compile-time truthy", 1) {
         function createPropError(args) {
             return Object.defineProperty(new Error(`Failed prop type: The prop \`${args.key}\` expects a ${args.expected} in \`<Link>\`, but got \`${args.actual}\` instead.` + (typeof window !== 'undefined' ? "\nOpen your browser's console to view the Component stack trace." : '')), "__NEXT_ERROR_CODE", {
@@ -17574,8 +17583,8 @@ function getFetchStrategyFromPrefetchProp(prefetchProp) {
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;
     else {
-        return prefetchProp === null || prefetchProp === 'auto' ? _segmentcache.FetchStrategy.PPR : // (although invalid values should've been filtered out by prop validation in dev)
-        _segmentcache.FetchStrategy.Full;
+        return prefetchProp === null || prefetchProp === 'auto' ? _types.FetchStrategy.PPR : // (although invalid values should've been filtered out by prop validation in dev)
+        _types.FetchStrategy.Full;
     }
 }
 if ((typeof exports.default === 'function' || typeof exports.default === 'object' && exports.default !== null) && typeof exports.default.__esModule === 'undefined') {

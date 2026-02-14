@@ -765,7 +765,7 @@ const Footer = ()=>{
                 className: "h-px bg-linear-to-r from-transparent via-gray-200 to-transparent"
             }, void 0, false, {
                 fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                lineNumber: 189,
+                lineNumber: 190,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -778,20 +778,20 @@ const Footer = ()=>{
                                 children: "© 2026 Nectarlite Technology. All rights reserved."
                             }, void 0, false, {
                                 fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                lineNumber: 194,
+                                lineNumber: 195,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
                                 className: "h-3.5 w-3.5 text-red-500 fill-red-500"
                             }, void 0, false, {
                                 fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                lineNumber: 195,
+                                lineNumber: 196,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                        lineNumber: 193,
+                        lineNumber: 194,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -808,17 +808,17 @@ const Footer = ()=>{
                                             children: social.icon
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                            lineNumber: 208,
+                                            lineNumber: 209,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, index, false, {
                                         fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                        lineNumber: 202,
+                                        lineNumber: 203,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                lineNumber: 200,
+                                lineNumber: 201,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -833,20 +833,20 @@ const Footer = ()=>{
                                                     children: link.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                                    lineNumber: 219,
+                                                    lineNumber: 220,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 index < 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "w-1 h-1 rounded-full bg-gray-300"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                                    lineNumber: 226,
+                                                    lineNumber: 227,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                            lineNumber: 218,
+                                            lineNumber: 219,
                                             columnNumber: 25
                                         }, ("TURBOPACK compile-time value", void 0))),
                                     legalLinks.map((link, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -858,38 +858,38 @@ const Footer = ()=>{
                                                     children: link.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                                    lineNumber: 232,
+                                                    lineNumber: 233,
                                                     columnNumber: 29
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 index < legalLinks.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "w-1 h-1 rounded-full bg-gray-300"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                                    lineNumber: 239,
+                                                    lineNumber: 240,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                            lineNumber: 231,
+                                            lineNumber: 232,
                                             columnNumber: 25
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                                lineNumber: 216,
+                                lineNumber: 217,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                        lineNumber: 198,
+                        lineNumber: 199,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                lineNumber: 192,
+                lineNumber: 193,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -903,18 +903,18 @@ const Footer = ()=>{
                             children: "simplify everyday life"
                         }, void 0, false, {
                             fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                            lineNumber: 250,
+                            lineNumber: 251,
                             columnNumber: 49
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                    lineNumber: 249,
+                    lineNumber: 250,
                     columnNumber: 13
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Nectarlite-Archive/src/app/components/Footer.jsx",
-                lineNumber: 248,
+                lineNumber: 249,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         ]

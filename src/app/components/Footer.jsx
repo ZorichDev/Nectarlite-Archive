@@ -183,7 +183,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        
+    
 
         {/* Divider */}
         <div className="h-px bg-linear-to-r from-transparent via-gray-200 to-transparent"></div>

@@ -97,49 +97,7 @@ const AboutUs = () => {
                     />
                 </div>
             </Wrapper>
-
-            {/* Core Values Section */}
-            <div className="space-y-8 mb-16">
-                <div className="text-center space-y-3">
-                    <div className="flex justify-center space-x-8 items-center">
-                        <div className="flex gap-3">
-                            <div className="w-4 h-1 bg-purple-900"></div>
-                            <div className="w-10 h-1 bg-purple-900"></div>
-                        </div>
-                        <p className="text-blue-900 font-light text-sm tracking-wider">VALUES</p>
-                        <div className="flex gap-3">
-                            <div className="w-10 h-1 bg-purple-900"></div>
-                            <div className="w-4 h-1 bg-purple-900"></div>
-                        </div>
-                    </div>
-                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
-                        Guiding Principles
-                    </h3>
-                </div>
-
-                <Wrapper>
-                    <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-4">
-                        {values.map((value, index) => (
-                            <div
-                                key={index}
-                                className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100"
-                            >
-                                <div className="flex flex-col items-center text-center space-y-3">
-                                    <div className="p-3 bg-linear-to-br from-purple-50 to-blue-50 rounded-xl">
-                                        <value.icon className="h-8 w-8 text-purple-700" />
-                                    </div>
-                                    <h4 className="font-bold text-lg text-gray-900">{value.title}</h4>
-                                    <p className="text-gray-600 text-xs leading-relaxed">
-                                        {value.description}
-                                    </p>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </Wrapper>
-            </div>
-
-            {/* Mission, Vision, and Values Section */}
+ {/* Mission, Vision, and Values Section */}
             <div className="bg-linear-to-r from-purple-50 to-blue-50 py-16">
                 <Wrapper>
                     <div className="grid md:grid-cols-3 gap-8">
@@ -244,6 +202,48 @@ const AboutUs = () => {
                     </div>
                 </Wrapper>
             </div>
+            {/* Core Values Section */}
+            <div className="space-y-8 mb-16">
+                <div className="text-center space-y-3">
+                    <div className="flex justify-center space-x-8 items-center">
+                        <div className="flex gap-3">
+                            <div className="w-4 h-1 bg-purple-900"></div>
+                            <div className="w-10 h-1 bg-purple-900"></div>
+                        </div>
+                        <p className="text-blue-900 font-light text-sm tracking-wider">VALUES</p>
+                        <div className="flex gap-3">
+                            <div className="w-10 h-1 bg-purple-900"></div>
+                            <div className="w-4 h-1 bg-purple-900"></div>
+                        </div>
+                    </div>
+                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
+                        Guiding Principles
+                    </h3>
+                </div>
+
+                <Wrapper>
+                    <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-4">
+                        {values.map((value, index) => (
+                            <div
+                                key={index}
+                                className="bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100"
+                            >
+                                <div className="flex flex-col items-center text-center space-y-3">
+                                    <div className="p-3 bg-linear-to-br from-purple-50 to-blue-50 rounded-xl">
+                                        <value.icon className="h-8 w-8 text-purple-700" />
+                                    </div>
+                                    <h4 className="font-bold text-lg text-gray-900">{value.title}</h4>
+                                    <p className="text-gray-600 text-xs leading-relaxed">
+                                        {value.description}
+                                    </p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </Wrapper>
+            </div>
+
+           
 
             {/* Call to Action */}
             <Wrapper className="mt-16">

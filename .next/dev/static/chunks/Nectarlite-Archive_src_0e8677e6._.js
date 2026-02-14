@@ -111,11 +111,11 @@ var _s = __turbopack_context__.k.signature();
 const Navbar = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(29);
-    if ($[0] !== "ce51ed73f3877aa0a9ff6accef4f8bc2b0f3ba04af5be8ba8367d912351e8b06") {
+    if ($[0] !== "7e65758ec04624744deed2892b972aa388dd97f80c3ca32767f6471cae4d9353") {
         for(let $i = 0; $i < 29; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "ce51ed73f3877aa0a9ff6accef4f8bc2b0f3ba04af5be8ba8367d912351e8b06";
+        $[0] = "7e65758ec04624744deed2892b972aa388dd97f80c3ca32767f6471cae4d9353";
     }
     const [active, setActive] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     let t0;
@@ -217,7 +217,7 @@ const Navbar = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-black font-light",
-                            children: "05 kandi BR. New York"
+                            children: "13 Igboko by Aba Owerri-Road"
                         }, void 0, false, {
                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
                             lineNumber: 50,
@@ -283,7 +283,7 @@ const Navbar = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-black font-light",
-                            children: "example@gmail.com"
+                            children: "hello@nectarlite.com"
                         }, void 0, false, {
                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
                             lineNumber: 68,
@@ -360,7 +360,7 @@ const Navbar = ()=>{
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-black font-light",
-                                                children: "00000000000"
+                                                children: "+2347074242892"
                                             }, void 0, false, {
                                                 fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
                                                 lineNumber: 85,
@@ -739,7 +739,7 @@ const Navbar = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-black font-light",
-                            children: "05 kandi BR. New York"
+                            children: "13 Igboko by Aba Owerri-Road"
                         }, void 0, false, {
                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
                             lineNumber: 163,
@@ -795,7 +795,7 @@ const Navbar = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-black font-light",
-                            children: "example@gmail.com"
+                            children: "hello@nectarlite.com"
                         }, void 0, false, {
                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
                             lineNumber: 177,
@@ -868,7 +868,7 @@ const Navbar = ()=>{
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-black font-light",
-                                                            children: "00000000000"
+                                                            children: "+2347074242892"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
                                                             lineNumber: 191,

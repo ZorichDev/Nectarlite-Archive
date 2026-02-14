@@ -860,154 +860,6 @@ const AboutUs = ()=>{
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "space-y-8 mb-16",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-center space-y-3",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex justify-center space-x-8 items-center",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex gap-3",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-4 h-1 bg-purple-900"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                lineNumber: 106,
-                                                columnNumber: 29
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-10 h-1 bg-purple-900"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                lineNumber: 107,
-                                                columnNumber: 29
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                        lineNumber: 105,
-                                        columnNumber: 25
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-blue-900 font-light text-sm tracking-wider",
-                                        children: "VALUES"
-                                    }, void 0, false, {
-                                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                        lineNumber: 109,
-                                        columnNumber: 25
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex gap-3",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-10 h-1 bg-purple-900"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                lineNumber: 111,
-                                                columnNumber: 29
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-4 h-1 bg-purple-900"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                lineNumber: 112,
-                                                columnNumber: 29
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                        lineNumber: 110,
-                                        columnNumber: 25
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                lineNumber: 104,
-                                columnNumber: 21
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-2xl md:text-3xl font-bold text-gray-900",
-                                children: "Guiding Principles"
-                            }, void 0, false, {
-                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                lineNumber: 115,
-                                columnNumber: 21
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                        lineNumber: 103,
-                        columnNumber: 17
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$src$2f$app$2f$components$2f$Wrapper$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid md:grid-cols-3 lg:grid-cols-5 gap-4",
-                            children: values.map((value, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex flex-col items-center text-center space-y-3",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "p-3 bg-linear-to-br from-purple-50 to-blue-50 rounded-xl",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(value.icon, {
-                                                    className: "h-8 w-8 text-purple-700"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 129,
-                                                    columnNumber: 41
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            }, void 0, false, {
-                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                lineNumber: 128,
-                                                columnNumber: 37
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                className: "font-bold text-lg text-gray-900",
-                                                children: value.title
-                                            }, void 0, false, {
-                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                lineNumber: 131,
-                                                columnNumber: 37
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-gray-600 text-xs leading-relaxed",
-                                                children: value.description
-                                            }, void 0, false, {
-                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                lineNumber: 132,
-                                                columnNumber: 37
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                        lineNumber: 127,
-                                        columnNumber: 33
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                }, index, false, {
-                                    fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                    lineNumber: 123,
-                                    columnNumber: 29
-                                }, ("TURBOPACK compile-time value", void 0)))
-                        }, void 0, false, {
-                            fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                            lineNumber: 121,
-                            columnNumber: 21
-                        }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
-                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                        lineNumber: 120,
-                        columnNumber: 17
-                    }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, void 0, true, {
-                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                lineNumber: 102,
-                columnNumber: 13
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "bg-linear-to-r from-purple-50 to-blue-50 py-16",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$src$2f$app$2f$components$2f$Wrapper$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                     children: [
@@ -1026,12 +878,12 @@ const AboutUs = ()=>{
                                                         className: "w-6 h-6 text-purple-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                        lineNumber: 150,
+                                                        lineNumber: 108,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 107,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1039,13 +891,13 @@ const AboutUs = ()=>{
                                                     children: "Mission"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 152,
+                                                    lineNumber: 110,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 148,
+                                            lineNumber: 106,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1053,7 +905,7 @@ const AboutUs = ()=>{
                                             children: "To design and deliver practical, user-focused digital products that simplify everyday life, empower individuals, and support communities through accessible and reliable technology."
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 154,
+                                            lineNumber: 112,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1061,13 +913,13 @@ const AboutUs = ()=>{
                                             children: "Nectarlite is committed to building platforms that create opportunity, enable growth, and remove barriers to essential services."
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 157,
+                                            lineNumber: 115,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                    lineNumber: 147,
+                                    lineNumber: 105,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1082,12 +934,12 @@ const AboutUs = ()=>{
                                                         className: "w-6 h-6 text-blue-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                        lineNumber: 166,
+                                                        lineNumber: 124,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 165,
+                                                    lineNumber: 123,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1095,13 +947,13 @@ const AboutUs = ()=>{
                                                     children: "Vision"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 168,
+                                                    lineNumber: 126,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 122,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1109,7 +961,7 @@ const AboutUs = ()=>{
                                             children: "To build a trusted technology ecosystem that connects people to essential services seamlessly, anytime and anywhere."
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 170,
+                                            lineNumber: 128,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1117,13 +969,13 @@ const AboutUs = ()=>{
                                             children: "Nectarlite envisions a future where digital products enhance daily living, unlock human potential, and drive sustainable economic impact across communities."
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 173,
+                                            lineNumber: 131,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                    lineNumber: 163,
+                                    lineNumber: 121,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1138,12 +990,12 @@ const AboutUs = ()=>{
                                                         className: "w-6 h-6 text-green-600"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                        lineNumber: 182,
+                                                        lineNumber: 140,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 181,
+                                                    lineNumber: 139,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1151,13 +1003,13 @@ const AboutUs = ()=>{
                                                     children: "Core Values"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 184,
+                                                    lineNumber: 142,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 180,
+                                            lineNumber: 138,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1170,7 +1022,7 @@ const AboutUs = ()=>{
                                                             className: "w-2 h-2 bg-purple-600 rounded-full mt-2 mr-3"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                            lineNumber: 188,
+                                                            lineNumber: 146,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1180,7 +1032,7 @@ const AboutUs = ()=>{
                                                                     children: "Accessibility"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                                    lineNumber: 190,
+                                                                    lineNumber: 148,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1188,19 +1040,19 @@ const AboutUs = ()=>{
                                                                     children: "Simple, inclusive technology for everyone"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                                    lineNumber: 191,
+                                                                    lineNumber: 149,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                            lineNumber: 189,
+                                                            lineNumber: 147,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 187,
+                                                    lineNumber: 145,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1210,7 +1062,7 @@ const AboutUs = ()=>{
                                                             className: "w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                            lineNumber: 195,
+                                                            lineNumber: 153,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1220,7 +1072,7 @@ const AboutUs = ()=>{
                                                                     children: "Reliability"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                                    lineNumber: 197,
+                                                                    lineNumber: 155,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1228,19 +1080,19 @@ const AboutUs = ()=>{
                                                                     children: "Consistent, secure, and efficient platforms"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                                    lineNumber: 198,
+                                                                    lineNumber: 156,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                            lineNumber: 196,
+                                                            lineNumber: 154,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 194,
+                                                    lineNumber: 152,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1250,7 +1102,7 @@ const AboutUs = ()=>{
                                                             className: "w-2 h-2 bg-green-600 rounded-full mt-2 mr-3"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                            lineNumber: 202,
+                                                            lineNumber: 160,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1260,7 +1112,7 @@ const AboutUs = ()=>{
                                                                     children: "Innovation"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                                    lineNumber: 204,
+                                                                    lineNumber: 162,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1268,19 +1120,19 @@ const AboutUs = ()=>{
                                                                     children: "Thoughtful solutions for real problems"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                                    lineNumber: 205,
+                                                                    lineNumber: 163,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                            lineNumber: 203,
+                                                            lineNumber: 161,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 201,
+                                                    lineNumber: 159,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1290,7 +1142,7 @@ const AboutUs = ()=>{
                                                             className: "w-2 h-2 bg-orange-600 rounded-full mt-2 mr-3"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                            lineNumber: 209,
+                                                            lineNumber: 167,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1300,7 +1152,7 @@ const AboutUs = ()=>{
                                                                     children: "Community Impact"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                                    lineNumber: 211,
+                                                                    lineNumber: 169,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1308,19 +1160,19 @@ const AboutUs = ()=>{
                                                                     children: "Value creation for individuals and businesses"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                                    lineNumber: 212,
+                                                                    lineNumber: 170,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                            lineNumber: 210,
+                                                            lineNumber: 168,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 208,
+                                                    lineNumber: 166,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1330,7 +1182,7 @@ const AboutUs = ()=>{
                                                             className: "w-2 h-2 bg-red-600 rounded-full mt-2 mr-3"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                            lineNumber: 216,
+                                                            lineNumber: 174,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1340,7 +1192,7 @@ const AboutUs = ()=>{
                                                                     children: "Integrity"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                                    lineNumber: 218,
+                                                                    lineNumber: 176,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1348,37 +1200,37 @@ const AboutUs = ()=>{
                                                                     children: "Transparent, fair, and ethical operations"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                                    lineNumber: 219,
+                                                                    lineNumber: 177,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                            lineNumber: 217,
+                                                            lineNumber: 175,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                                    lineNumber: 215,
+                                                    lineNumber: 173,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 186,
+                                            lineNumber: 144,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                    lineNumber: 179,
+                                    lineNumber: 137,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                            lineNumber: 145,
+                            lineNumber: 103,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1392,7 +1244,7 @@ const AboutUs = ()=>{
                                             children: "4+"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 229,
+                                            lineNumber: 187,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1400,13 +1252,13 @@ const AboutUs = ()=>{
                                             children: "Products"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 230,
+                                            lineNumber: 188,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                    lineNumber: 228,
+                                    lineNumber: 186,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1417,7 +1269,7 @@ const AboutUs = ()=>{
                                             children: "50K+"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 233,
+                                            lineNumber: 191,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1425,13 +1277,13 @@ const AboutUs = ()=>{
                                             children: "Active Users"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 234,
+                                            lineNumber: 192,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                    lineNumber: 232,
+                                    lineNumber: 190,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1442,7 +1294,7 @@ const AboutUs = ()=>{
                                             children: "99.9%"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 237,
+                                            lineNumber: 195,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1450,13 +1302,13 @@ const AboutUs = ()=>{
                                             children: "Uptime"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 238,
+                                            lineNumber: 196,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                    lineNumber: 236,
+                                    lineNumber: 194,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1467,7 +1319,7 @@ const AboutUs = ()=>{
                                             children: "100%"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 241,
+                                            lineNumber: 199,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1475,30 +1327,178 @@ const AboutUs = ()=>{
                                             children: "Client Satisfaction"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                            lineNumber: 242,
+                                            lineNumber: 200,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                                    lineNumber: 240,
+                                    lineNumber: 198,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                            lineNumber: 227,
+                            lineNumber: 185,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                    lineNumber: 144,
+                    lineNumber: 102,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
-                lineNumber: 143,
+                lineNumber: 101,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "space-y-8 mb-16",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-center space-y-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex justify-center space-x-8 items-center",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex gap-3",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "w-4 h-1 bg-purple-900"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                                lineNumber: 210,
+                                                columnNumber: 29
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "w-10 h-1 bg-purple-900"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                                lineNumber: 211,
+                                                columnNumber: 29
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                        lineNumber: 209,
+                                        columnNumber: 25
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-blue-900 font-light text-sm tracking-wider",
+                                        children: "VALUES"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                        lineNumber: 213,
+                                        columnNumber: 25
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex gap-3",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "w-10 h-1 bg-purple-900"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                                lineNumber: 215,
+                                                columnNumber: 29
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "w-4 h-1 bg-purple-900"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                                lineNumber: 216,
+                                                columnNumber: 29
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                        lineNumber: 214,
+                                        columnNumber: 25
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                lineNumber: 208,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "text-2xl md:text-3xl font-bold text-gray-900",
+                                children: "Guiding Principles"
+                            }, void 0, false, {
+                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                lineNumber: 219,
+                                columnNumber: 21
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                        lineNumber: 207,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$src$2f$app$2f$components$2f$Wrapper$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid md:grid-cols-3 lg:grid-cols-5 gap-4",
+                            children: values.map((value, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-white p-4 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex flex-col items-center text-center space-y-3",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "p-3 bg-linear-to-br from-purple-50 to-blue-50 rounded-xl",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(value.icon, {
+                                                    className: "h-8 w-8 text-purple-700"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                                    lineNumber: 233,
+                                                    columnNumber: 41
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            }, void 0, false, {
+                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                                lineNumber: 232,
+                                                columnNumber: 37
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                className: "font-bold text-lg text-gray-900",
+                                                children: value.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                                lineNumber: 235,
+                                                columnNumber: 37
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-600 text-xs leading-relaxed",
+                                                children: value.description
+                                            }, void 0, false, {
+                                                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                                lineNumber: 236,
+                                                columnNumber: 37
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                        lineNumber: 231,
+                                        columnNumber: 33
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, index, false, {
+                                    fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                                    lineNumber: 227,
+                                    columnNumber: 29
+                                }, ("TURBOPACK compile-time value", void 0)))
+                        }, void 0, false, {
+                            fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                            lineNumber: 225,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
+                        fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                        lineNumber: 224,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Nectarlite-Archive/src/app/components/About.jsx",
+                lineNumber: 206,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$src$2f$app$2f$components$2f$Wrapper$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {

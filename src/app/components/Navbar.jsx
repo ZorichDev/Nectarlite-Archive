@@ -25,7 +25,7 @@ const Navbar = () => {
                             <MapPin size={30} strokeWidth={1} color='#4a2f48' />
                             <div className="flex flex-col -space-y-1">
                                 <p className='text-black font-semibold'>Address</p>
-                                <p className='text-black font-light'>05 kandi BR. New York</p>
+                                <p className='text-black font-light'>13 Igboko by Aba Owerri-Road</p>
                             </div>
                         </div>
                         <div className="w-[0.5px] h-8 bg-[#eeeeee]"></div>
@@ -33,7 +33,7 @@ const Navbar = () => {
                             <Mail size={30} strokeWidth={1} color='#4a2f48' />
                             <div className="flex flex-col -space-y-1">
                                 <p className='text-black font-semibold'>Email</p>
-                                <p className='text-black font-light'>example@gmail.com</p>
+                                <p className='text-black font-light'>hello@nectarlite.com</p>
                             </div>
                         </div>
                         <div className="w-[0.5px] h-8 bg-[#eeeeee]"></div>
@@ -41,7 +41,7 @@ const Navbar = () => {
                             <Phone size={30} strokeWidth={1} color='#4a2f48' />
                             <div className="flex flex-col -space-y-1">
                                 <p className='text-black font-semibold'>Phone</p>
-                                <p className='text-black font-light'>00000000000</p>
+                                <p className='text-black font-light'>+2347074242892</p>
                             </div>
                         </div>
                     </div>
@@ -94,21 +94,21 @@ const Navbar = () => {
                                     <MapPin size={30} strokeWidth={1} color='#4a2f48' />
                                     <div className="flex flex-col -space-y-1">
                                         <p className='text-black font-semibold'>Address</p>
-                                        <p className='text-black font-light'>05 kandi BR. New York</p>
+                                        <p className='text-black font-light'>13 Igboko by Aba Owerri-Road</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-2">
                                     <Mail size={30} strokeWidth={1} color='#4a2f48' />
                                     <div className="flex flex-col -space-y-1">
                                         <p className='text-black font-semibold'>Email</p>
-                                        <p className='text-black font-light'>example@gmail.com</p>
+                                        <p className='text-black font-light'>hello@nectarlite.com</p>
                                     </div>
                                 </div>
                                 <div className="flex items-center space-x-2">
                                     <MapPin size={30} strokeWidth={1} color='#4a2f48' />
                                     <div className="flex flex-col -space-y-1">
                                         <p className='text-black font-semibold'>Address</p>
-                                        <p className='text-black font-light'>00000000000</p>
+                                        <p className='text-black font-light'>+2347074242892</p>
                                     </div>
                                 </div>
                             </div>

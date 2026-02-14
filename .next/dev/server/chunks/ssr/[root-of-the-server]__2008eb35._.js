@@ -508,6 +508,21 @@ const Navbar = ()=>{
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
                                             lineNumber: 81,
                                             columnNumber: 25
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            className: "text-black font-light border-b border-[#f6f7f9]",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/policy",
+                                                children: "Privacy Policy"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
+                                                lineNumber: 82,
+                                                columnNumber: 89
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
+                                            lineNumber: 82,
+                                            columnNumber: 25
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
@@ -524,14 +539,14 @@ const Navbar = ()=>{
                                             color: "white"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                            lineNumber: 84,
+                                            lineNumber: 85,
                                             columnNumber: 25
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "w-[0.5px] h-8 bg-[#eeeeee]"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                            lineNumber: 85,
+                                            lineNumber: 86,
                                             columnNumber: 25
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__["Facebook"], {
@@ -540,7 +555,7 @@ const Navbar = ()=>{
                                             color: "white"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                            lineNumber: 86,
+                                            lineNumber: 87,
                                             columnNumber: 25
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$twitter$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Twitter$3e$__["Twitter"], {
@@ -549,7 +564,7 @@ const Navbar = ()=>{
                                             color: "white"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                            lineNumber: 87,
+                                            lineNumber: 88,
                                             columnNumber: 25
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__["Instagram"], {
@@ -558,13 +573,13 @@ const Navbar = ()=>{
                                             color: "white"
                                         }, void 0, false, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                            lineNumber: 88,
+                                            lineNumber: 89,
                                             columnNumber: 25
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                    lineNumber: 83,
+                                    lineNumber: 84,
                                     columnNumber: 21
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$src$2f$app$2f$components$2f$Wrapper$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -582,7 +597,7 @@ const Navbar = ()=>{
                                                             color: "#4a2f48"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 95,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -593,7 +608,7 @@ const Navbar = ()=>{
                                                                     children: "Address"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                                    lineNumber: 96,
+                                                                    lineNumber: 97,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -601,19 +616,19 @@ const Navbar = ()=>{
                                                                     children: "13 Igboko by Aba Owerri-Road"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                                    lineNumber: 97,
+                                                                    lineNumber: 98,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                            lineNumber: 95,
+                                                            lineNumber: 96,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 94,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -625,7 +640,7 @@ const Navbar = ()=>{
                                                             color: "#4a2f48"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                            lineNumber: 101,
+                                                            lineNumber: 102,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -636,7 +651,7 @@ const Navbar = ()=>{
                                                                     children: "Email"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                                    lineNumber: 103,
+                                                                    lineNumber: 104,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -644,19 +659,19 @@ const Navbar = ()=>{
                                                                     children: "hello@nectarlite.com"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                                    lineNumber: 104,
+                                                                    lineNumber: 105,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                            lineNumber: 102,
+                                                            lineNumber: 103,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                    lineNumber: 100,
+                                                    lineNumber: 101,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -668,7 +683,7 @@ const Navbar = ()=>{
                                                             color: "#4a2f48"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                            lineNumber: 108,
+                                                            lineNumber: 109,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -679,7 +694,7 @@ const Navbar = ()=>{
                                                                     children: "Address"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                                    lineNumber: 110,
+                                                                    lineNumber: 111,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -687,35 +702,35 @@ const Navbar = ()=>{
                                                                     children: "+2347074242892"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                                    lineNumber: 111,
+                                                                    lineNumber: 112,
                                                                     columnNumber: 41
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                            lineNumber: 109,
+                                                            lineNumber: 110,
                                                             columnNumber: 37
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                                    lineNumber: 107,
+                                                    lineNumber: 108,
                                                     columnNumber: 33
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                            lineNumber: 92,
+                                            lineNumber: 93,
                                             columnNumber: 29
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                        lineNumber: 91,
+                                        lineNumber: 92,
                                         columnNumber: 25
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/Nectarlite-Archive/src/app/components/Navbar.jsx",
-                                    lineNumber: 90,
+                                    lineNumber: 91,
                                     columnNumber: 21
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]

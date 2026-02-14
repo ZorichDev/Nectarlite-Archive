@@ -175,10 +175,10 @@ const Footer = () => {
                                     className='text-gray-700 hover:text-purple-700 transition-colors text-xs'
                                 >
                                     {link.name}
-                                </Link>
+                                </Link> 
                             </li>
                         ))}
-                        
+
                     </ul>
                 </div>
             </div>

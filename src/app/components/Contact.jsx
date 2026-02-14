@@ -40,7 +40,7 @@ const Contact = () => {
                 </div>
                 <span className="text-xl text-white font-bold text-center">Get in Touch
 </span>
-                <h5 className="text-5xl text-white font-bold text-center">(+123) 456-9989</h5>
+                <h5 className="text-5xl text-white font-bold text-center">(+234)  707 424 2892</h5>
                 <p className="text-white font-semibold text-center text-lg">Have questions or need support?<br/> Call us, schedule an appointment, or send a message, and a Necterlite representative will respond promptly to assist you. We’re committed to providing seamless, reliable support to all our users, vendors, and partners.
 </p>
                 <p className="text-white font-semibold text-center text-lg">Available 24/7 to ensure your experience with Necterlite is smooth, secure, and effortless.</p>

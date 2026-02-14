@@ -2648,11 +2648,11 @@ var _s = __turbopack_context__.k.signature();
 const Contact = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(12);
-    if ($[0] !== "e97ae288f6ae8c4620f2047cef8089628e735099613462136b0f8de42c54eea9") {
+    if ($[0] !== "201bd40902d8d606e837a9e722963e112550c6eeb08b1eda96a944af85bc5fe8") {
         for(let $i = 0; $i < 12; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "e97ae288f6ae8c4620f2047cef8089628e735099613462136b0f8de42c54eea9";
+        $[0] = "201bd40902d8d606e837a9e722963e112550c6eeb08b1eda96a944af85bc5fe8";
     }
     const counterRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])();
     let t0;
@@ -2747,7 +2747,7 @@ const Contact = ()=>{
         }, ("TURBOPACK compile-time value", void 0));
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nectarlite$2d$Archive$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
             className: "text-5xl text-white font-bold text-center",
-            children: "(+123) 456-9989"
+            children: "(+234)  707 424 2892"
         }, void 0, false, {
             fileName: "[project]/Nectarlite-Archive/src/app/components/Contact.jsx",
             lineNumber: 66,

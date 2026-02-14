@@ -75,7 +75,7 @@ const AboutUs = () => {
                             <div className="w-4 h-1 bg-purple-900"></div>
                             <div className="w-10 h-1 bg-purple-900"></div>
                         </div>
-                        <p className="text-blue-900 font-light text-sm tracking-wider">WHO WE ARE</p>
+                        <p className="text-blue-900 font-light text-sm tracking-wider">About Nectarlite</p>
                     </div>
                     
                     <h2 className="font-bold text-black text-3xl lg:text-4xl leading-tight">
@@ -106,7 +106,7 @@ const AboutUs = () => {
                             <div className="w-4 h-1 bg-purple-900"></div>
                             <div className="w-10 h-1 bg-purple-900"></div>
                         </div>
-                        <p className="text-blue-900 font-light text-sm tracking-wider">OUR VALUES</p>
+                        <p className="text-blue-900 font-light text-sm tracking-wider">VALUES</p>
                         <div className="flex gap-3">
                             <div className="w-10 h-1 bg-purple-900"></div>
                             <div className="w-4 h-1 bg-purple-900"></div>
@@ -149,7 +149,7 @@ const AboutUs = () => {
                                 <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
                                     <Target className="w-6 h-6 text-purple-600" />
                                 </div>
-                                <h3 className="text-2xl font-bold text-gray-900">Our Mission</h3>
+                                <h3 className="text-2xl font-bold text-gray-900">Mission</h3>
                             </div>
                             <p className="text-gray-700">
                                 To design and deliver practical, user-focused digital products that simplify everyday life, empower individuals, and support communities through accessible and reliable technology.
@@ -165,7 +165,7 @@ const AboutUs = () => {
                                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                                     <Eye className="w-6 h-6 text-blue-600" />
                                 </div>
-                                <h3 className="text-2xl font-bold text-gray-900">Our Vision</h3>
+                                <h3 className="text-2xl font-bold text-gray-900">Vision</h3>
                             </div>
                             <p className="text-gray-700">
                                 To build a trusted technology ecosystem that connects people to essential services seamlessly, anytime and anywhere.
@@ -181,7 +181,7 @@ const AboutUs = () => {
                                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
                                     <CheckCircle className="w-6 h-6 text-green-600" />
                                 </div>
-                                <h3 className="text-2xl font-bold text-gray-900">Our Core Values</h3>
+                                <h3 className="text-2xl font-bold text-gray-900">Core Values</h3>
                             </div>
                             <div className="space-y-4">
                                 <div className="flex items-start">
@@ -224,7 +224,7 @@ const AboutUs = () => {
                     </div>
 
                     {/* Stats Section */}
-                    <div className="mt-16 grid md:grid-cols-4 gap-6 text-center">
+                    <div className="mt-16 grid md:grid-cols-4 gap-6 text-center hidden">
                         <div className="bg-white p-6 rounded-2xl shadow-sm">
                             <div className="text-3xl font-bold text-purple-600 mb-2">4+</div>
                             <div className="text-gray-700 font-semibold">Products</div>

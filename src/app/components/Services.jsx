@@ -108,7 +108,7 @@ const Services = () => {
 
                                 {/* Action Button */}
                                 <button className="w-full py-3 bg-gray-50 hover:bg-gray-100 rounded-lg font-medium text-gray-700 transition-colors duration-200 group-hover:text-purple-600">
-                                    Learn More →
+                                    Buy Now →
                                 </button>
                             </div>
 
@@ -148,7 +148,7 @@ const Services = () => {
             {/* Features Section */}
             <div className="mb-24">
                 <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-                    Our <span className="text-purple-600">Ecosystem</span> Principles
+                     <span className="text-purple-600">Ecosystem</span> Principles
                 </h2>
                 
                 <div className="grid md:grid-cols-3 gap-8">

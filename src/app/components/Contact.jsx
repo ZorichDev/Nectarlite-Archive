@@ -38,13 +38,16 @@ const Contact = () => {
                 <div className="w-20 h-20 rounded-full p-3 bg-white flex justify-center items-center">
                     <Phone size={30} className='text-purple-500' />
                 </div>
-                <span className="text-xl text-white font-bold text-center">CALL US 24/7</span>
+                <span className="text-xl text-white font-bold text-center">Get in Touch
+</span>
                 <h5 className="text-5xl text-white font-bold text-center">(+123) 456-9989</h5>
-                <p className="text-white font-semibold text-center text-lg">Have any idea or project for in your mind call us or schedule an appointment. Our representative will reply you shortly.</p>
-                <Button text={"Let's Talk"} className={'rounded-3xl font-bold py-3 px-7'} />
+                <p className="text-white font-semibold text-center text-lg">Have questions or need support?<br/> Call us, schedule an appointment, or send a message, and a Necterlite representative will respond promptly to assist you. We’re committed to providing seamless, reliable support to all our users, vendors, and partners.
+</p>
+                <p className="text-white font-semibold text-center text-lg">Available 24/7 to ensure your experience with Necterlite is smooth, secure, and effortless.</p>
+                <Button text={"Call Now"} className={'rounded-3xl font-bold py-3 px-7'} />
             </div>
         </div>
-        <div className="absolute md:-bottom-20 md:right-20 left-1/2 -translate-x-1/2 rounded-3xl shadow-lg bg-white p-10 flex justify-between items-center md:w-[40%] w-[98%]  -bottom-50" style={{
+        <div className="absolute md:-bottom-20 md:right-20 left-1/2 -translate-x-1/2 rounded-3xl shadow-lg bg-white p-10 flex justify-between items-center md:w-[40%] w-[98%]  -bottom-50 hidden" style={{
             backgroundImage: `url(${reactionBackground.src})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'

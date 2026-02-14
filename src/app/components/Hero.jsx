@@ -54,7 +54,7 @@ const Hero = () => {
                         <p className='text-white text-xl split-word'>Nectarlite Technology is a multi-product ecosystem delivering digital solutions that simplify everyday life, while shaping the future of essential services through innovative, integrated products.</p>
                         <PlayAnimation />
                     </div>
-                    <div className="p-10 rounded-2xl flex flex-col space-y-5 bg-white md:w-[70%] ms-auto w-full md:my-0 my-5">
+                    <div className="p-10 rounded-2xl flex flex-col space-y-5 bg-white md:w-[70%] ms-auto w-full md:my-0 my-5 hidden">
                         <span className="font-bold text-black text-2xl">Schedule Your Appointment</span>
                         <p className="font-light">
                             We here to help you 24/7 with experts
@@ -74,10 +74,10 @@ const Hero = () => {
             <Wrapper className="py-16 md:py-24">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                        Our Product Categories
+                        Our Technology Ecosystem
                     </h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Explore our innovative technology solutions designed for modern living
+                        Explore the intelligent solutions powered by Nectarlite technology.
                     </p>
                 </div>
 
@@ -112,7 +112,7 @@ const Hero = () => {
                                     href={card.link}
                                     className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold group/link"
                                 >
-                                    <span>order Now</span>
+                                    <span>Explore More</span>
                                     <svg 
                                         className="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform duration-200" 
                                         fill="none" 

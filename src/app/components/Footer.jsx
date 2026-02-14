@@ -149,12 +149,12 @@ const Footer = () => {
                         <div className="flex items-start gap-2">
                             <MapPinIcon size={14} className='text-purple-600 mt-0.5 shrink-0' />
                             <p className="text-gray-700 text-xs">
-                                374 FA Tower, William S Blvd 2721, IL, USA
+                                13 Igboko by Aba Owerri-Road
                             </p>
                         </div>
                         <div className="flex items-center gap-2">
                             <Phone size={14} className='text-purple-600 shrink-0' />
-                            <p className="text-gray-700 text-sm">+1 (234) 567-8900</p>
+                            <p className="text-gray-700 text-sm">+234 707 424 2892</p>
                         </div>
                         <div className="flex items-center gap-2">
                             <Mail size={14} className='text-purple-600 shrink-0' />

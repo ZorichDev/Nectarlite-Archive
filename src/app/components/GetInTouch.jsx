@@ -25,7 +25,7 @@ const GetInTouch = () => {
                     </div>
                     <div className="flex flex-col gap-3">
                         <p className="font-semibold">Phone:</p>
-                        <span className="font-light">(+088)589-8745</span>
+                        <span className="font-light">+2347074242892</span>
                     </div>
                 </div>
                 <div className="flex gap-4 items-center">
@@ -34,7 +34,7 @@ const GetInTouch = () => {
                     </div>
                     <div className="flex flex-col gap-3">
                         <p className="font-semibold">Address:</p>
-                        <span className="font-light">New Jersey, 1201, USA</span>
+                        <span className="font-light">13 Igboko by Aba Owerri-Road</span>
                     </div>
                 </div>
             </div>

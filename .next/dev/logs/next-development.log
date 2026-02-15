@@ -1,18 +1,5 @@
-[00:00:54.516] Server  LOG     ✓ Ready in 35.8s
-[00:00:57.625] Server  LOG     ○ Compiling /_not-found/page ...
-[00:01:28.685] Server  WARN    ⚠ Cross origin request detected from 10.213.108.1 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:01:28.758] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:28.934] Browser WARN    Image with src "/_next/static/media/logo.f7584b2a.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:01:35.803] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:36.062] Browser WARN    Image with src "/_next/static/media/logo.f7584b2a.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:05:21.369] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:34.091] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:34.243] Browser WARN    Image with src "/_next/static/media/logo.f7584b2a.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:06:52.370] Server  LOG     ○ Compiling /privacy ...
-[00:08:27.937] Server  LOG     ✓ Compiled in 554ms
-[00:09:01.638] Server  LOG     ✓ Compiled in 448ms
-[00:09:15.268] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:53.714] Server  LOG     ✓ Ready in 120.1s
+[00:03:40.964] Server  LOG     ○ Compiling / ...
+[00:05:39.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:59.522] Server  LOG     ✓ Compiled in 4.4s
+[00:17:06.283] Server  LOG     ✓ Compiled in 230ms

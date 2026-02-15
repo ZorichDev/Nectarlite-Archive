@@ -56,7 +56,7 @@ const Navbar = () => {
                         <li className='text-white font-bold'><Link href=''>Pages</Link></li>
                         <li className='text-white font-bold'><Link href=''>Blog</Link></li> */}
                         <li className='text-white font-bold'><Link href='/contact'>Contact</Link></li>
-                        <li className='text-white font-bold'><Link href='/policy'>Privacy Policy</Link></li>
+                       <li className='text-white font-bold'><Link href='/privacy'>Privacy Policy</Link></li>
                     </ul>
                     <div className="flex items-center space-x-5">
                         <Search size={20} strokeWidth={1} color='white' />
@@ -79,7 +79,7 @@ const Navbar = () => {
                         <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Pages</Link></li>
                         <li className='text-black font-light border-b border-[#f6f7f9]'><Link href=''>Blog</Link></li> */}
                         <li className='text-black font-light border-b border-[#f6f7f9]'><Link href='/contact'>Contact</Link></li>
-                        <li className='text-black font-light border-b border-[#f6f7f9]'><Link href='/policy'>Privacy Policy</Link></li>
+                       <li className='text-black font-light border-b border-[#f6f7f9]'><Link href='/privacy'>Privacy Policy</Link></li>
                     </ul>
                     <div className="flex items-center space-x-5">
                         <Search size={20} strokeWidth={1} color='white' />

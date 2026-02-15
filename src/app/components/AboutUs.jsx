@@ -21,7 +21,7 @@ const AboutUs = () => {
               </div>
               <h2 className='text-4xl font-bold text-black'>The Nectarlite Technology Ecosystem</h2>
               <p className='text-gray-600 text-lg'>
-                  Nectarlite Technology is a technology-driven, multi-product ecosystem focused on building practical, reliable, and accessible digital solutions that bring essential services directly to people's doorsteps.
+                  Nectarlite Technology is a technology-driven, multi-product ecosystem focused on building practical, reliable, and accessible digital solutions that bring essential services directly to people&apos;s doorsteps.
               </p>
               <p className='text-gray-600'>
                   Through a growing network of mobile applications and platforms, Nectarlite simplifies everyday life by connecting users to transportation, food delivery, mentorship, and future on-demand services with speed, efficiency, and trust.
@@ -111,26 +111,6 @@ const AboutUs = () => {
                   <span className="text-gray-600 ml-2">- Transparent, fair, and ethical operations</span>
                 </div>
               </div>
-            </div>
-          </div>
-
-          {/* Stats Section */}
-          <div className="mt-16 grid md:grid-cols-4 gap-6 text-center">
-            <div className="bg-white p-6 rounded-2xl shadow-sm">
-              <div className="text-3xl font-bold text-purple-600 mb-2">25+</div>
-              <div className="text-gray-700 font-semibold">Years Experience</div>
-            </div>
-            <div className="bg-white p-6 rounded-2xl shadow-sm">
-              <div className="text-3xl font-bold text-blue-600 mb-2">1000+</div>
-              <div className="text-gray-700 font-semibold">Projects Delivered</div>
-            </div>
-            <div className="bg-white p-6 rounded-2xl shadow-sm">
-              <div className="text-3xl font-bold text-green-600 mb-2">50+</div>
-              <div className="text-gray-700 font-semibold">Countries Served</div>
-            </div>
-            <div className="bg-white p-6 rounded-2xl shadow-sm">
-              <div className="text-3xl font-bold text-orange-600 mb-2">98%</div>
-              <div className="text-gray-700 font-semibold">Client Satisfaction</div>
             </div>
           </div>
         </Wrapper>

@@ -11,7 +11,7 @@ const Footer = () => {
     { name: "Sailfast", icon: <Coffee className="h-4 w-4" /> },
     { name: "Marice", icon: <BookOpen className="h-4 w-4" /> },
     { name: "EsomGod Academy", icon: <GraduationCap className="h-4 w-4" /> },
-    { name: "EsomGold", icon: <Shield className="h-4 w-4" /> },
+    { name: "EsomGod", icon: <Shield className="h-4 w-4" /> },
   ]
 
   const companyLinks = [

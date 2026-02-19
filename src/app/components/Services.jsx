@@ -28,7 +28,7 @@ const Services = () => {
             icon: "🎓"
         },
         {
-            title: "EsomGold",
+            title: "EsomGod",
             tagline: "Digital Solutions",
             description: "Integrated technology solutions that simplify everyday life, streamline services, and enhance digital experiences.",
             color: "from-green-500 to-teal-500",

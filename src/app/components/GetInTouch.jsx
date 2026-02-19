@@ -1,3 +1,4 @@
+// src/app/components/GetInTouch.jsx
 import React from 'react'
 import Wrapper from './Wrapper'
 import { House, MapPinIcon, Phone } from 'lucide-react'
@@ -49,7 +50,7 @@ const GetInTouch = () => {
                 <input type="text" className="bg-[#f6f7f9] outline-none rounded-sm text-light p-4 grow" placeholder='E-Mail' />
                 <input type="text" className="bg-[#f6f7f9] outline-none rounded-sm text-light p-4 grow" placeholder='Phone Number' />
                 <input type="text" className="bg-[#f6f7f9] outline-none rounded-sm text-light p-4 grow" placeholder='Your Website' />
-                <textarea className="bg-[#f6f7f9] outline-none rounded-sm text-light p-4 grow w-full" placeholder='Your Message Here' rows={5} col='10' />
+                <textarea className="bg-[#f6f7f9] outline-none rounded-sm text-light p-4 grow w-full" placeholder='Your Message Here' rows={5} />
                 <Button text={"Submit Now"} className={'font-semibold text-white px-10 py-4 rounded-full'} />
             </form>
         </div>

@@ -1,9 +1,10 @@
+// src/app/contact/page.js
 import React from 'react'
 import ContactHero from '../components/ContactHero'
 import GetInTouch from '../components/GetInTouch'
 import ContactMap from '../components/ContactMap'
 
-const page = () => {
+const Page = () => {  // Capitalized component name (convention)
   return (
     <>
         <ContactHero />
@@ -13,4 +14,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

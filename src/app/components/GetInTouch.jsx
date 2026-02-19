@@ -7,7 +7,7 @@ const GetInTouch = () => {
   return (
     <Wrapper className={'my-40 grid gap-40 md:grid-cols-[1.5fr_2fr] grid-cols-1'}>
         <div className="flex flex-col rounded-lg p-10 bg-linear-to-r from-purple-900 to-purple-500 text-white gap-5">
-            <span className="text-white font-light">LET'S TALK</span>
+            <span className="text-white font-light">LET&apos;S TALK</span>
             <h2 className='text-4xl font-bold'>Speak With Expert Engineers.</h2>
             <div className="flex flex-col gap-4">
                 <div className="flex gap-4 items-center">

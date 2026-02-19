@@ -47,7 +47,7 @@ const Contact = () => {
                 <Button text={"Call Now"} className={'rounded-3xl font-bold py-3 px-7'} />
             </div>
         </div>
-        <div className="absolute md:-bottom-20 md:right-20 left-1/2 -translate-x-1/2 rounded-3xl shadow-lg bg-white p-10 flex justify-between items-center md:w-[40%] w-[98%]  -bottom-50 hidden" style={{
+        <div className="absolute md:-bottom-20 md:right-20 left-1/2 -translate-x-1/2 rounded-3xl shadow-lg bg-white p-10 justify-between items-center md:w-[40%] w-[98%]  -bottom-50 hidden" style={{
             backgroundImage: `url(${reactionBackground.src})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
